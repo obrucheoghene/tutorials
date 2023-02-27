@@ -1,4 +1,4 @@
-# A Simple Guide To Use React Redux
+# A Simple Guide To Use React Redux: A Powerfull State Management Tool
 
 ## Introduction
 
