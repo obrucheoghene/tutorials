@@ -1,6 +1,8 @@
-import React from 'react';
+import { useState } from 'react';
 
-const Play = () => {
+const Play = ({ user }) => {
+  const [count, setCount] = useState(0);
+
   return (
     <div>
       <h1>Hello {user}</h1>

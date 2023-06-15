@@ -2,15 +2,15 @@ import { useState } from 'react';
 import './App.css';
 import Login from './Login';
 import Play from './Play';
+import InputText from './Input';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState('Mavis');
 
   return (
     <div className="App">
-      {user ? <Play /> : <Login />}
+      <InputText />
+      {user ? <Play user={user} /> : <Login />}
 
       <p className="read-the-docs">Statement management with react redux</p>
     </div>
